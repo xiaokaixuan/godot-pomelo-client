@@ -62,8 +62,9 @@ func _readloop(delta):
 				if code == 1000:
 					var handler = eventFuncs.get('onKick')
 					if handler != null: handler.call(jsonresult)
-				var handler = eventFuncs.get('close')
-				if handler != null: handler.call(jsonresult)
+				else:
+					var handler = eventFuncs.get('close')
+					if handler != null: handler.call(jsonresult)
 			
 	if curTime >= nextHeartbeatTimeout and needSendHeartBeat:
 		protocol.heartBeat(socket)
