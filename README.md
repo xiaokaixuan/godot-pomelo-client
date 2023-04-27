@@ -2,7 +2,7 @@
 
 ## Usage
 
-```
+```GDScript
 
 func _on_Button_pressed():
 	# 初始化连接
