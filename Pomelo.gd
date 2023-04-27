@@ -32,6 +32,7 @@ func close():
 	needSendHeartBeat = false
 	_inited = false
 	socket.close()
+	#socket = WebSocketPeer.new()
 	set_process(false)
 
 func _readloop(delta):
@@ -57,8 +58,12 @@ func _readloop(delta):
 				var code = socket.get_close_code()
 				var reason = socket.get_close_reason()
 				close()
+				var jsonresult = { 'code': code, 'reason': reason }
+				if code == 1000:
+					var handler = eventFuncs.get('onKick')
+					if handler != null: handler.call(jsonresult)
 				var handler = eventFuncs.get('close')
-				if handler != null: handler.call({ 'code': code, 'reason': reason })
+				if handler != null: handler.call(jsonresult)
 			
 	if curTime >= nextHeartbeatTimeout and needSendHeartBeat:
 		protocol.heartBeat(socket)
@@ -83,12 +88,12 @@ func _respondErr(outputData):
 
 func _handlerWithType(type, body):
 	if type == protocol.TYPE_HANDSHAKE:
-		print('TYPE_HANDSHAKE: ', PackedByteArray(body).get_string_from_utf8())
+		print('handShake: ', PackedByteArray(body).get_string_from_utf8())
 		protocol.handshakeACK(socket)
 		_inited = true
 		initCallback.call()
 	elif type == protocol.TYPE_HEARTBEAT:
-		print('TYPE_HEARTBEAT: ', 'Get heartbeat')
+		print('heartBeat: ', 'get heartbeat')
 		needSendHeartBeat = true
 		nextHeartbeatTimeout = curTime + 3
 	elif type == protocol.TYPE_DATA:

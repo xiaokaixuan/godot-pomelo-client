@@ -19,8 +19,8 @@ class CTable:
 		return self.values_map.get(str(id))
 		
 
-var tables_map = {}
-var _property_list = []
+var tables_map := {}
+var _property_list := []
 
 func _readJson():
 	var file = FileAccess.open(jsonPath, FileAccess.READ)
@@ -33,11 +33,11 @@ func _readJson():
 			'type': TYPE_OBJECT
 		})
 		tables_map[table_name] = CTable.new(table_name, jsonresult[table_name]['values'])
-		
+
 func _get_property_list():
 	return _property_list
 	
-func _get(property):
+func _get(property: StringName):
 	return tables_map.get(property)
 
 func _ready():
