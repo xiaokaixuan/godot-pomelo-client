@@ -1,0 +1,3549 @@
+{
+	"leixingbiao": {
+		"id": 4,
+		"typeName": "类型表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 3000,
+				"xiao_Class": [
+					3101,
+					3102,
+					3103,
+					3201,
+					3202,
+					3203
+				],
+				"card_name": "生存物资",
+				"class": 2
+			},
+			{
+				"id": 3100,
+				"xiao_Class": [
+					2001,
+					2002,
+					2003,
+					2004,
+					2005
+				],
+				"card_name": "材料包",
+				"class": 2
+			},
+			{
+				"id": 3200,
+				"xiao_Class": [
+					3201,
+					3202,
+					3203
+				],
+				"card_name": "药品类",
+				"class": 2
+			}
+		],
+		"merge": 1,
+		"modification": 1553826912987,
+		"name": "leixingbiao"
+	},
+	"talent": {
+		"id": 2,
+		"typeName": "抽卡天赋表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 1,
+				"water_cost_add": 0,
+				"talent_desc": "野外探索寻找到维修工具包的概率增加丨找到空间碎片的概率增加",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0.6,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "机械师丨空间之力",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 1,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 18,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "维修包几率+0.6%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 2,
+				"water_cost_add": 0,
+				"talent_desc": "野外探索寻找到维修工具包的概率减少丨找到空间碎片的概率减少",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": -0.6,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "倒霉蛋丨命途多舛",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 1,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 82,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "维修包几率-0.6%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 3,
+				"water_cost_add": 0,
+				"talent_desc": "生病几率减少丨受伤几率降低",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "强壮丨百毒不侵",
+				"getill_per_add": -0.5,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 2,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 50,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "生病几率-0.5%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 4,
+				"water_cost_add": 0,
+				"talent_desc": "生病几率增加丨受伤几率增加",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "体弱丨羸弱",
+				"getill_per_add": 0.5,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 2,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 50,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "生病几率+0.5%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 5,
+				"water_cost_add": 0,
+				"talent_desc": "每天消耗更多的体力丨每年消耗更多的体力",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "肥胖丨体虚",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 3,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 100,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "额外消耗更多2点体力",
+				"food_cost_add": 2
+			},
+			{
+				"id": 6,
+				"water_cost_add": 2,
+				"talent_desc": "每天消耗更多的水分丨每年消耗更多的灵气",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "多汗丨杂灵根",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 4,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 45,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "额外消耗更多2点水分",
+				"food_cost_add": 0
+			},
+			{
+				"id": 7,
+				"water_cost_add": -2,
+				"talent_desc": "每天消耗水分减少丨每年消耗灵气减少",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "少汗丨纯灵根",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 4,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 55,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "额外消耗更少2点水分",
+				"food_cost_add": 0
+			},
+			{
+				"id": 8,
+				"water_cost_add": 2,
+				"talent_desc": "探索到矿泉水几率增加，每日消耗水也增加丨找到灵气丹几率增加，每年消耗灵气也增加",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "生于大海丨生于谷雨",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 5,
+				"water_per_add": 1,
+				"Vit_Max": 0,
+				"random_quanzhong": 45,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "消耗更多水份/矿泉水几率+1%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 9,
+				"water_cost_add": -2,
+				"talent_desc": "探索到矿泉水几率减少，每日消耗水也减少丨找到灵气丹几率减少，每年消耗灵气也减少",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "沙漠出生丨生于大暑",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 5,
+				"water_per_add": -1,
+				"Vit_Max": 0,
+				"random_quanzhong": 55,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "消耗更少水份/矿泉水几率-1%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 10,
+				"water_cost_add": 0,
+				"talent_desc": "转换生存物资需要更少的卡片丨交易丹药需要更少的精华",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "研究生丨巧舌如簧",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": -1,
+				"talent_type": 6,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 25,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "交易消耗材料包减少1",
+				"food_cost_add": 0
+			},
+			{
+				"id": 11,
+				"water_cost_add": 0,
+				"talent_desc": "转换生存物资需要更多的卡片丨交易丹药需要更多的精华",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "实习生丨木讷呆板",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 2,
+				"talent_type": 6,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 75,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "交易消耗材料包增加2",
+				"food_cost_add": 0
+			},
+			{
+				"id": 12,
+				"water_cost_add": 0,
+				"talent_desc": "抽到食品类的几率减少丨没有求生欲望，找到生存类丹药的几率减少",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "宅神丨悲观主义",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": -0.8,
+				"trade_cost_add": 0,
+				"talent_type": 7,
+				"water_per_add": -0.8,
+				"Vit_Max": 0,
+				"random_quanzhong": 45,
+				"zhending_per_add": -0.8,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "食品罐头/矿泉水/咖啡获取几率-0.8%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 13,
+				"water_cost_add": 0,
+				"talent_desc": "抽到食品类的几率增加丨找到生存类丹药的几率增加",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "生存者丨药宗童子",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0.6,
+				"trade_cost_add": 0,
+				"talent_type": 7,
+				"water_per_add": 0.6,
+				"Vit_Max": 0,
+				"random_quanzhong": 55,
+				"zhending_per_add": 0.6,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "食品罐头/矿泉水/咖啡获取几率+0.6%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 14,
+				"water_cost_add": 0,
+				"talent_desc": "抽不到生存物资和维修工具包时，增加精神下降几率丨找不到生存类丹药和空间碎片时，增加精神下降几率",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "急躁丨抑郁寡欢",
+				"getill_per_add": 0,
+				"spirit_add": 20,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 8,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 62,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "精神下降更快+20%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 15,
+				"water_cost_add": 0,
+				"talent_desc": "抽不到生存物资和维修工具包时，减少精神下降几率丨找不到生存类丹药和空间碎片时，减少精神下降几率",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "沉稳丨生性乐观",
+				"getill_per_add": 0,
+				"spirit_add": -20,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 8,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 38,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "精神下降更慢-20%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 16,
+				"water_cost_add": 0,
+				"talent_desc": "搜寻药物类和咖啡的几率减少丨获得疗伤类丹药和凝神丹的几率减少",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "讨厌药物丨不喜丹药",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 9,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 55,
+				"zhending_per_add": -0.5,
+				"Vig_Max": 0,
+				"lifecard_per_add": -0.5,
+				"talent_desc2": "三种药物和咖啡获取几率-0.5%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 17,
+				"water_cost_add": 0,
+				"talent_desc": "搜寻药物类和咖啡的几率增加丨获得疗伤类丹药和凝神丹的几率增加",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "喜欢药物丨药宗长老",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 9,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 45,
+				"zhending_per_add": 0.5,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0.5,
+				"talent_desc2": "三种药物和咖啡获取几率+0.5%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 18,
+				"water_cost_add": 0,
+				"talent_desc": "搜寻食品罐头几率减少丨更想食用普通食物，获得辟谷丹几率减少",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "厌食者丨享食者",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": -1.8,
+				"trade_cost_add": 0,
+				"talent_type": 10,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 45,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "食品罐头获取几率-2%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 19,
+				"water_cost_add": 0,
+				"talent_desc": "搜寻食品罐头几率增加丨获得辟谷丹几率增加",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "美食家丨药宗弟子",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 1.6,
+				"trade_cost_add": 0,
+				"talent_type": 10,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 55,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "食品罐头获取几率+1.6%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 20,
+				"water_cost_add": 0,
+				"talent_desc": "每天获得更多的探索点丨每年获得更多的探索点数",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					110,
+					139
+				],
+				"talent_name": "探险家丨天性好动",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 11,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 100,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "获得110-139探索点（替换原来的）",
+				"food_cost_add": 0
+			},
+			{
+				"id": 21,
+				"water_cost_add": 0,
+				"talent_desc": "显示精确分解丨显示高级炼化",
+				"show_price": 1,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "科研家丨器宗长老",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 12,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 100,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "显示精确分解",
+				"food_cost_add": 0
+			},
+			{
+				"id": 22,
+				"water_cost_add": 0,
+				"talent_desc": "显示探索搜寻几率丨显示探索搜寻几率",
+				"show_price": 0,
+				"show_per": 1,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "赌徒丨神识过人",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 13,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 100,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "显示探索搜寻几率",
+				"food_cost_add": 0
+			},
+			{
+				"id": 23,
+				"water_cost_add": -2,
+				"talent_desc": "每天消耗更少的食物和水丨能适应各种恶劣的环境，每天消耗更少的体力和灵气",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "忍者丨苦修者",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 14,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 100,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "消耗更少体力和水分",
+				"food_cost_add": -2
+			},
+			{
+				"id": 24,
+				"water_cost_add": 0,
+				"talent_desc": "拥有更多的体力丨拥有更多的体力",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "运动员丨体修者",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 15,
+				"water_per_add": 0,
+				"Vit_Max": 20,
+				"random_quanzhong": 100,
+				"zhending_per_add": 0,
+				"Vig_Max": 0,
+				"lifecard_per_add": 0,
+				"talent_desc2": "体力上限增加20%",
+				"food_cost_add": 0
+			},
+			{
+				"id": 25,
+				"water_cost_add": 0,
+				"talent_desc": "拥有更多的精神丨拥有更多的精神",
+				"show_price": 0,
+				"show_per": 0,
+				"ssr_per_add": 0,
+				"money_add": [
+					0,
+					0
+				],
+				"talent_name": "催眠师丨灵修者",
+				"getill_per_add": 0,
+				"spirit_add": 0,
+				"food_per_add": 0,
+				"trade_cost_add": 0,
+				"talent_type": 16,
+				"water_per_add": 0,
+				"Vit_Max": 0,
+				"random_quanzhong": 100,
+				"zhending_per_add": 0,
+				"Vig_Max": 20,
+				"lifecard_per_add": 0,
+				"talent_desc2": "精神上限增加20%",
+				"food_cost_add": 0
+			}
+		],
+		"merge": 1,
+		"modification": 1555039008960,
+		"name": "talent"
+	},
+	"tables": [
+		"lvup",
+		"talent",
+		"card",
+		"leixingbiao",
+		"changliangbiao",
+		"jiejubiao",
+		"sangshibiao",
+		"tishibiao",
+		"shijianbiao",
+		"shijianhouxubiao",
+		"fenjiezhuanhaun",
+		"mijinggk",
+		"mijingjd",
+		"beijingbiao"
+	],
+	"lvup": {
+		"id": 1,
+		"typeName": "齿轮数据表",
+		"subkey": {},
+		"values": [
+			{
+				"food_per": 6,
+				"uplv_2": 10,
+				"uplv_5": 12,
+				"water_per": 6,
+				"ssr_exchange": 2,
+				"uplv_3": 10,
+				"uplv_6": 100,
+				"id": 1,
+				"medicine_per": 1.1,
+				"ssr_per": 2.9,
+				"uplv_4": 12,
+				"uplv_1": 10,
+				"coffee_per": 2.5
+			},
+			{
+				"food_per": 6.2,
+				"uplv_2": 15,
+				"uplv_5": 20,
+				"water_per": 6.2,
+				"ssr_exchange": 2,
+				"uplv_3": 15,
+				"uplv_6": 150,
+				"id": 2,
+				"medicine_per": 1.2,
+				"ssr_per": 3.1,
+				"uplv_4": 20,
+				"uplv_1": 20,
+				"coffee_per": 2.6
+			},
+			{
+				"food_per": 6.4,
+				"uplv_2": 25,
+				"uplv_5": 30,
+				"water_per": 6.4,
+				"ssr_exchange": 2,
+				"uplv_3": 25,
+				"uplv_6": 200,
+				"id": 3,
+				"medicine_per": 1.3,
+				"ssr_per": 3.3,
+				"uplv_4": 30,
+				"uplv_1": 100,
+				"coffee_per": 2.7
+			},
+			{
+				"food_per": 6.6,
+				"uplv_2": 35,
+				"uplv_5": 45,
+				"water_per": 6.6,
+				"ssr_exchange": 2,
+				"uplv_3": 35,
+				"uplv_6": 250,
+				"id": 4,
+				"medicine_per": 1.4,
+				"ssr_per": 3.5,
+				"uplv_4": 45,
+				"uplv_1": 200,
+				"coffee_per": 2.8
+			},
+			{
+				"food_per": 6.8,
+				"uplv_2": 45,
+				"uplv_5": 60,
+				"water_per": 6.8,
+				"ssr_exchange": 2,
+				"uplv_3": 45,
+				"uplv_6": 300,
+				"id": 5,
+				"medicine_per": 1.5,
+				"ssr_per": 3.7,
+				"uplv_4": 60,
+				"uplv_1": 300,
+				"coffee_per": 2.9
+			},
+			{
+				"food_per": 7,
+				"uplv_2": 60,
+				"uplv_5": 80,
+				"water_per": 7,
+				"ssr_exchange": 3,
+				"uplv_3": 60,
+				"uplv_6": 400,
+				"id": 6,
+				"medicine_per": 1.8,
+				"ssr_per": 3.9,
+				"uplv_4": 80,
+				"uplv_1": 400,
+				"coffee_per": 3
+			},
+			{
+				"food_per": 7.2,
+				"uplv_2": 80,
+				"uplv_5": 100,
+				"water_per": 7.2,
+				"ssr_exchange": 3,
+				"uplv_3": 80,
+				"uplv_6": 500,
+				"id": 7,
+				"medicine_per": 2,
+				"ssr_per": 4.1,
+				"uplv_4": 100,
+				"uplv_1": 500,
+				"coffee_per": 3.2
+			},
+			{
+				"food_per": 7.6,
+				"uplv_2": 100,
+				"uplv_5": 160,
+				"water_per": 7.6,
+				"ssr_exchange": 3,
+				"uplv_3": 100,
+				"uplv_6": 600,
+				"id": 8,
+				"medicine_per": 2.3,
+				"ssr_per": 4.3,
+				"uplv_4": 160,
+				"uplv_1": 600,
+				"coffee_per": 3.4000000000000004
+			},
+			{
+				"food_per": 8,
+				"uplv_2": 250,
+				"uplv_5": 250,
+				"water_per": 8,
+				"ssr_exchange": 3,
+				"uplv_3": 250,
+				"uplv_6": 700,
+				"id": 9,
+				"medicine_per": 2.5,
+				"ssr_per": 4.5,
+				"uplv_4": 250,
+				"uplv_1": 800,
+				"coffee_per": 3.6000000000000005
+			},
+			{
+				"food_per": 8.4,
+				"uplv_2": 450,
+				"uplv_5": 450,
+				"water_per": 8.4,
+				"ssr_exchange": 3,
+				"uplv_3": 450,
+				"uplv_6": 800,
+				"id": 10,
+				"medicine_per": 2.8,
+				"ssr_per": 4.7,
+				"uplv_4": 450,
+				"uplv_1": 1000,
+				"coffee_per": 3.8000000000000007
+			},
+			{
+				"food_per": 8.8,
+				"uplv_2": 600,
+				"uplv_5": 600,
+				"water_per": 8.8,
+				"ssr_exchange": 4,
+				"uplv_3": 600,
+				"uplv_6": 900,
+				"id": 11,
+				"medicine_per": 3,
+				"ssr_per": 4.9,
+				"uplv_4": 600,
+				"uplv_1": 1200,
+				"coffee_per": 4.000000000000001
+			},
+			{
+				"food_per": 9.2,
+				"uplv_2": 750,
+				"uplv_5": 750,
+				"water_per": 9.2,
+				"ssr_exchange": 4,
+				"uplv_3": 750,
+				"uplv_6": 1050,
+				"id": 12,
+				"medicine_per": 3.3,
+				"ssr_per": 5.1,
+				"uplv_4": 750,
+				"uplv_1": 1400,
+				"coffee_per": 4.200000000000001
+			},
+			{
+				"food_per": 9.6,
+				"uplv_2": 750,
+				"uplv_5": 750,
+				"water_per": 9.6,
+				"ssr_exchange": 4,
+				"uplv_3": 750,
+				"uplv_6": 1200,
+				"id": 13,
+				"medicine_per": 3.5,
+				"ssr_per": 5.3,
+				"uplv_4": 750,
+				"uplv_1": 1600,
+				"coffee_per": 4.400000000000001
+			},
+			{
+				"food_per": 10,
+				"uplv_2": 800,
+				"uplv_5": 800,
+				"water_per": 10,
+				"ssr_exchange": 4,
+				"uplv_3": 800,
+				"uplv_6": 1350,
+				"id": 14,
+				"medicine_per": 3.8,
+				"ssr_per": 5.5,
+				"uplv_4": 800,
+				"uplv_1": 1800,
+				"coffee_per": 4.600000000000001
+			},
+			{
+				"food_per": 10.8,
+				"uplv_2": 1000,
+				"uplv_5": 1000,
+				"water_per": 10.8,
+				"ssr_exchange": 5,
+				"uplv_3": 1000,
+				"uplv_6": 1500,
+				"id": 15,
+				"medicine_per": 4,
+				"ssr_per": 5.7,
+				"uplv_4": 1000,
+				"uplv_1": 2000,
+				"coffee_per": 4.800000000000002
+			}
+		],
+		"merge": 1,
+		"modification": 1553826913049,
+		"name": "lvup"
+	},
+	"jiejubiao": {
+		"id": 6,
+		"typeName": "结局表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 1,
+				"des_type": 1,
+				"des_name": "猝死丨意志消沉",
+				"des_string": "你精神疯狂，日夜抓狂，导致你心力衰竭骤然猝死......丨在一次又一次的轮回中，你的精神变得异常脆弱..."
+			},
+			{
+				"id": 2,
+				"des_type": 1,
+				"des_name": "饿死丨修真也要吃饭",
+				"des_string": "食不饱，力不足，食物资源耗尽，导致你饥饿而死......丨辟谷丹耗尽，无法维持体力..."
+			},
+			{
+				"id": 3,
+				"des_type": 1,
+				"des_name": "渴死丨灵气衰竭",
+				"des_string": "一滴水拯救一个世界，水资源的枯竭，导致你被渴死了......丨灵气耗尽，无法运行功法，难以抵挡恶劣的环境..."
+			},
+			{
+				"id": 4,
+				"des_type": 1,
+				"des_name": "饥寒交迫丨祸不单行",
+				"des_string": "饥肠饿肚，伴随病魔缠身，在饥寒交迫中你泯然于人世间......丨在身受重伤，腹中饥饿，意识模糊中你开始了又一次的轮回..."
+			},
+			{
+				"id": 5,
+				"des_type": 1,
+				"des_name": "乐极生悲丨福兮祸兮",
+				"des_string": "祸兮，福之所倚，福兮，祸之所伏，大喜大悲的冲击下你精神崩溃疯癫而亡......丨你被空间碎片所附带的法则干扰，神识破碎而死"
+			},
+			{
+				"id": 6,
+				"des_type": 1,
+				"des_name": "命丧尸口丨寡不敌众",
+				"des_string": "是晚，丧尸来袭，你躲藏一处瑟瑟发抖，却不幸被丧尸发现，被丧尸围攻至死......丨魔修入侵时，你不小心被几名修魔者围攻致死..."
+			},
+			{
+				"id": 7,
+				"des_type": 1,
+				"des_name": "病危离世丨身负重伤",
+				"des_string": "由于病情严重导致你因病去世丨身受重伤，没有得到很好的治疗和休息，导致死亡..."
+			},
+			{
+				"id": 8,
+				"des_type": 1,
+				"des_name": "英勇战死丨学艺不精",
+				"des_string": "遭遇意外事件导致死亡丨遭遇战斗受伤而亡..."
+			},
+			{
+				"id": 9,
+				"des_type": 1,
+				"des_name": "狂暴尸潮丨轮回不止",
+				"des_string": "狂暴尸潮爆发，灾难降临，你未能安全逃离，危急时刻你抱起了时光沙漏，慌张逃窜，不慎打破沙漏，引发时光溯流...一切貌似恢复了原样，却又有着一些不同。丨幻境关闭，你被困在其中，等待幻境重新开启，开启又一次的轮回..."
+			},
+			{
+				"id": 10,
+				"des_type": 2,
+				"des_name": "完美炼心丨终成绝学",
+				"des_string": "经过不断的轮回，你完美的通过了炼心秘境。丨在漫长的轮回中，你终于成功掌握了轮回之力"
+			},
+			{
+				"id": 11,
+				"des_type": 9,
+				"des_name": "重置轮回",
+				"des_string": "自断筋脉"
+			}
+		],
+		"merge": 1,
+		"modification": 1553826913146,
+		"name": "jiejubiao"
+	},
+	"changliangbiao": {
+		"id": 5,
+		"typeName": "常量表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 5001,
+				"const_value": "100:1000;100:2000",
+				"const_name": "MUBIAO_WIXIUBAO"
+			},
+			{
+				"id": 5002,
+				"const_value": "365:1000;500:2000",
+				"const_name": "MUBIAO_TIANSHU"
+			},
+			{
+				"id": 5003,
+				"const_value": "150",
+				"const_name": "JINGSHENLI_CHUSHI"
+			},
+			{
+				"id": 5004,
+				"const_value": "100",
+				"const_name": "TILIZHI_CHUSHI"
+			},
+			{
+				"id": 5005,
+				"const_value": "100",
+				"const_name": "SHUIFENZHI_CHUSHI"
+			},
+			{
+				"id": 5006,
+				"const_value": "10",
+				"const_name": "XIUXI_TILI"
+			},
+			{
+				"id": 5007,
+				"const_value": "10",
+				"const_name": "XIUXI_SHUIFEN"
+			},
+			{
+				"id": 5008,
+				"const_value": "10",
+				"const_name": "XIUXI_JINGSHENLI"
+			},
+			{
+				"id": 5009,
+				"const_value": "60:正常;10:抑郁;0:疯狂丨60:兴奋;10:正常;0:枯竭;",
+				"const_name": "JINGSHEN_ZHUANGTAI"
+			},
+			{
+				"id": 5010,
+				"const_value": "3",
+				"const_name": "XIUXI_SHENGBIN_JILV"
+			},
+			{
+				"id": 5011,
+				"const_value": "1",
+				"const_name": "TANSUO_SHENGBIN_JILV"
+			},
+			{
+				"id": 5012,
+				"const_value": "100",
+				"const_name": "FENGKUANG_SIWANG_JILV"
+			},
+			{
+				"id": 5013,
+				"const_value": "55:5",
+				"const_name": "TANSUO_ZHENGCHANG_JILV"
+			},
+			{
+				"id": 5014,
+				"const_value": "70:8",
+				"const_name": "TANSUO_GANRANFAYAN_JILV"
+			},
+			{
+				"id": 5015,
+				"const_value": "5:8:10",
+				"const_name": "BING_FARE"
+			},
+			{
+				"id": 5016,
+				"const_value": "5:8:10",
+				"const_name": "BING_HUAISIBING"
+			},
+			{
+				"id": 5017,
+				"const_value": "11:15:18",
+				"const_name": "BING_GANRAN_XIUXI"
+			},
+			{
+				"id": 5018,
+				"const_value": "永久增加秘境心石获取概率丨永久增加空间碎片获取概率",
+				"const_name": "CHILUN_1"
+			},
+			{
+				"id": 5019,
+				"const_value": "永久增加食品罐头获取概率丨永久增加辟谷丹获取概率",
+				"const_name": "CHILUN_2"
+			},
+			{
+				"id": 5020,
+				"const_value": "永久增加矿泉水获取概率丨永久增加灵气丹获取概率",
+				"const_name": "CHILUN_3"
+			},
+			{
+				"id": 5021,
+				"const_value": "永久增加医疗类的获得的几率丨永久增加疗伤丹药的获得的几率",
+				"const_name": "CHILUN_4"
+			},
+			{
+				"id": 5022,
+				"const_value": "永久增加咖啡的获取几率丨永久增加凝神丹的获取几率",
+				"const_name": "CHILUN_5"
+			},
+			{
+				"id": 5023,
+				"const_value": "永久增加秘境心石附带的时光之沙数量丨永久增加空间碎片附带的时光之沙数量",
+				"const_name": "CHILUN_6"
+			},
+			{
+				"id": 5024,
+				"const_value": "81:110",
+				"const_name": "CHUSHI_TANSUODIAN"
+			},
+			{
+				"id": 5025,
+				"const_value": "-5:5",
+				"const_name": "YANJIU_TANSUODIAN_RANDOM"
+			},
+			{
+				"id": 5026,
+				"const_value": "10",
+				"const_name": "TANSUO_COST"
+			},
+			{
+				"id": 5027,
+				"const_value": "100",
+				"const_name": "TANSUODIAN_CHUSHI"
+			},
+			{
+				"id": 5028,
+				"const_value": "10",
+				"const_name": "TILI_HUIFU"
+			},
+			{
+				"id": 5029,
+				"const_value": "10",
+				"const_name": "WATER_HUIFU"
+			},
+			{
+				"id": 5030,
+				"const_value": "10",
+				"const_name": "JINGSHEN_HUIFU"
+			},
+			{
+				"id": 5031,
+				"const_value": "发热体虚丨灵根受损",
+				"const_name": "BING_NAME1"
+			},
+			{
+				"id": 5032,
+				"const_value": "发炎感染丨神识受损",
+				"const_name": "BING_NAME2"
+			},
+			{
+				"id": 5033,
+				"const_value": "组织坏死丨肉身受损",
+				"const_name": "BING_NAME3"
+			},
+			{
+				"id": 5034,
+				"const_value": "1",
+				"const_name": "SHUIJIAO_GETGOLD"
+			},
+			{
+				"id": 5035,
+				"const_value": "10",
+				"const_name": "SHUIJIAO_DEATH_JILV"
+			},
+			{
+				"id": 5036,
+				"const_value": "2",
+				"const_name": "DEATH_GOLD"
+			},
+			{
+				"id": 5037,
+				"const_value": "2001:5;2002:8;2004:20;2005:30",
+				"const_name": "XINHAOQIANG_YANJIUXIAOHAO"
+			},
+			{
+				"id": 5038,
+				"const_value": "2001:8;2002:10;2003:20;2005:45",
+				"const_name": "JIQIREN_YANJIUXIAOHAO"
+			},
+			{
+				"id": 5039,
+				"const_value": "20;3",
+				"const_name": "KAISHIRENWU"
+			},
+			{
+				"id": 5040,
+				"const_value": "18:30;3:16",
+				"const_name": "ZHENGCHANGRENWU"
+			},
+			{
+				"id": 5041,
+				"const_value": "3;2005:15;2004:10;3101:1;3102:1",
+				"const_name": "CHUJI_LIUWANGZHE_1"
+			},
+			{
+				"id": 5042,
+				"const_value": "5;2004:15;2003:10;3101:2;3102:2",
+				"const_name": "ZHONGJI_LIUWANGZHE_2"
+			},
+			{
+				"id": 5043,
+				"const_value": "8;2002:15;2001:10;3101:3;3102:3",
+				"const_name": "GAOJI_LIUWANGZHE_3"
+			},
+			{
+				"id": 5044,
+				"const_value": "2",
+				"const_name": "XINHAOQIANG_YANJIUCISHU"
+			},
+			{
+				"id": 5045,
+				"const_value": "1",
+				"const_name": "JIQIREN_YANJIUCISHU"
+			},
+			{
+				"id": 5046,
+				"const_value": "1",
+				"const_name": "TANSUO_EVENT_LV"
+			},
+			{
+				"id": 5047,
+				"const_value": "3",
+				"const_name": "BINGQING_FAZHI_1"
+			},
+			{
+				"id": 5048,
+				"const_value": "60;3",
+				"const_name": "BINGQING_FAZHI_2"
+			},
+			{
+				"id": 5049,
+				"const_value": "8",
+				"const_name": "SHENGBING_TIME"
+			},
+			{
+				"id": 5050,
+				"const_value": "3",
+				"const_name": "GAIMING_XIAOHAO"
+			},
+			{
+				"id": 5051,
+				"const_value": "5",
+				"const_name": "TONGGUAN_JIASHA"
+			},
+			{
+				"id": 5052,
+				"const_value": "30;50;80;100",
+				"const_name": "SIWANG_FUHUO"
+			},
+			{
+				"id": 5053,
+				"const_value": "1",
+				"const_name": "AD_FUHUO_MIANFEI_JU"
+			},
+			{
+				"id": 5054,
+				"const_value": "3",
+				"const_name": "AD_SHIPIN_MIANFEI_JU"
+			},
+			{
+				"id": 5055,
+				"const_value": "3",
+				"const_name": "AD_SHUI_MIANFEI_JU"
+			},
+			{
+				"id": 5056,
+				"const_value": "3",
+				"const_name": "AD_COFFEE_MIANFEI_JU"
+			},
+			{
+				"id": 5057,
+				"const_value": "3",
+				"const_name": "AD_YAOPIN_MIANFEI_JU"
+			},
+			{
+				"id": 5058,
+				"const_value": "1;30",
+				"const_name": "AD_TANSUODIA"
+			},
+			{
+				"id": 5059,
+				"const_value": "1",
+				"const_name": "AD_YANJIU_TIAN"
+			},
+			{
+				"id": 5060,
+				"const_value": "5;2",
+				"const_name": "AD_MIANSHA"
+			},
+			{
+				"id": 5061,
+				"const_value": "3;5",
+				"const_name": "AD_FENXIANG"
+			},
+			{
+				"id": 5062,
+				"const_value": "5",
+				"const_name": "MEIRI_MIANSHA"
+			},
+			{
+				"id": 5063,
+				"const_value": "2.7;5.8;5.8;1;2.4;19.4;13;9.6;6.4",
+				"const_name": "TANSUO_PRO_LV"
+			},
+			{
+				"id": 5064,
+				"const_value": "1",
+				"const_name": "WEIXIUBAO_JIANG_SA"
+			},
+			{
+				"id": 5065,
+				"const_value": "秘境心石丨空间宝石",
+				"const_name": "CHILUN_1_NAME"
+			},
+			{
+				"id": 5066,
+				"const_value": "食物资源获取丨能量宝石",
+				"const_name": "CHILUN_2_NAME"
+			},
+			{
+				"id": 5067,
+				"const_value": "水资源获取丨灵气宝石",
+				"const_name": "CHILUN_3_NAME"
+			},
+			{
+				"id": 5068,
+				"const_value": "医疗物资获取丨疗伤宝石",
+				"const_name": "CHILUN_4_NAME"
+			},
+			{
+				"id": 5069,
+				"const_value": "咖啡资源获取丨时光宝石",
+				"const_name": "CHILUN_5_NAME"
+			},
+			{
+				"id": 5070,
+				"const_value": "时光之沙丨天命宝石",
+				"const_name": "CHILUN_6_NAME"
+			},
+			{
+				"id": 5071,
+				"const_value": "6000",
+				"const_name": "TS_SFSJ_ID"
+			},
+			{
+				"id": 5072,
+				"const_value": "你在{0}中的{1}发现了：",
+				"const_name": "HJ_SHUIJIYUJUZHUHE"
+			},
+			{
+				"id": 5073,
+				"const_value": "雇    佣|结    交",
+				"const_name": "HJ_ZHU_GUYONG_BUT"
+			},
+			{
+				"id": 5074,
+				"const_value": "进    食|服    丹",
+				"const_name": "HJ_ZHU_JINSHI_BUT"
+			},
+			{
+				"id": 5075,
+				"const_value": "饮    水|打    坐",
+				"const_name": "HJ_ZHU_YINSHUI_BUT"
+			},
+			{
+				"id": 5076,
+				"const_value": "养    神|冥    想",
+				"const_name": "HJ_ZHU_YANGSHEN_BUT"
+			},
+			{
+				"id": 5077,
+				"const_value": "幻境商人|幻境商人",
+				"const_name": "HJ_ZHU_MIJIANGSHANGREN_BUT"
+			},
+			{
+				"id": 5078,
+				"const_value": "治    疗|疗    伤",
+				"const_name": "HJ_ZHU_ZHILIAO_BUT"
+			},
+			{
+				"id": 5079,
+				"const_value": "探索幻境|探索幻境",
+				"const_name": "HJ_ZHU_TANSUO_BUT"
+			},
+			{
+				"id": 5080,
+				"const_value": "下 一 天|下 一 年",
+				"const_name": "HJ_ZHU_XIAYITIAN_BUT"
+			},
+			{
+				"id": 5081,
+				"const_value": "体力|体力",
+				"const_name": "HJ_ZHU_TILI_TXT"
+			},
+			{
+				"id": 5082,
+				"const_value": "水分|灵气",
+				"const_name": "HJ_ZHU_SHUIFEN_TXT"
+			},
+			{
+				"id": 5083,
+				"const_value": "精力|精神",
+				"const_name": "HJ_ZHU_JINGLI_TXT"
+			},
+			{
+				"id": 5084,
+				"const_value": "转换|交易",
+				"const_name": "HJ_SHANGREN_ZHUANHUAN_BUT"
+			},
+			{
+				"id": 5085,
+				"const_value": "分解|炼化",
+				"const_name": "HJ_SHANGREN_FENJIE_BUT"
+			},
+			{
+				"id": 5086,
+				"const_value": "精确分解|高级炼化",
+				"const_name": "HJ_SHANGREN_JINGQUEFENJIE_BUT"
+			},
+			{
+				"id": 5087,
+				"const_value": "已开启精确分解,{0}|已开启高级炼化，{0}",
+				"const_name": "HJ_SHANGREN_JINGQUEFENJIE_KAIQI_TXT"
+			},
+			{
+				"id": 5088,
+				"const_value": "未选择精确分解|未选择高级炼化",
+				"const_name": "HJ_SHANGREN_JINGQUEFENJIE_GUANBI_TXT"
+			},
+			{
+				"id": 5089,
+				"const_value": "流亡雇佣兵|结交修真",
+				"const_name": "HJ_GUYONG_BIAOTI_TXT"
+			},
+			{
+				"id": 5090,
+				"const_value": "    一群在多次灾难中存活下来，并适应了这里生存环境的流亡者。他们靠给在这里的幸存逃亡者提供支援来获取物资，麻木的活着对未来不报任何希望。丨    历次秘境开启时，进来的修者，他们经验丰富，了解魔修的攻击方式，结交他们，你将能安心的闭关修炼，收集空间碎片。",
+				"const_name": "HJ_GUYONG_WENBEN_TXT"
+			},
+			{
+				"id": 5091,
+				"const_value": "初级流亡者|金丹期修士",
+				"const_name": "HJ_GUYONG_TYPE_CHUJI"
+			},
+			{
+				"id": 5092,
+				"const_value": "中级流亡者|分神期修士",
+				"const_name": "HJ_GUYONG_TYPE_ZHONGJI"
+			},
+			{
+				"id": 5093,
+				"const_value": "高级流亡者|大乘期修士",
+				"const_name": "HJ_GUYONG_TYPE_GAOJI"
+			},
+			{
+				"id": 5094,
+				"const_value": "雇佣|结交",
+				"const_name": "HJ_GUYONG_GUYONG_BUT"
+			},
+			{
+				"id": 5095,
+				"const_value": "距离下次尸潮还有{0}天，丧尸数:{1}|距离下次魔修来袭还有{0}年，魔修数:{1}",
+				"const_name": "SHANGSHI_LAIXI"
+			},
+			{
+				"id": 5096,
+				"const_value": "可抵挡{0}只丧尸|可抵挡{0}个魔修",
+				"const_name": "SHANGSHI_SHULIANG_TXT"
+			},
+			{
+				"id": 5097,
+				"const_value": "你可以提前雇佣，尸潮来临时他们会如约进行帮助|你可以提前结交，魔修来临时他们会如约进行阻挡",
+				"const_name": "SHANGSHI_TS_TXT"
+			},
+			{
+				"id": 5098,
+				"const_value": "已经没有丧尸了，你要珍惜资源，不要浪费使用！当然你要是资源多，我也很乐意接受！|已经没有魔修了，你要珍惜资源，不要浪费使用！当然你要是资源多，我也很乐意接受！",
+				"const_name": "SHANGSHI_GY_TXT"
+			},
+			{
+				"id": 5099,
+				"const_value": "距离幻境毁灭还有",
+				"const_name": "XIUXI_TS_TXT"
+			},
+			{
+				"id": 5100,
+				"const_value": "收集进度",
+				"const_name": "XIUXI_JD_TXT"
+			},
+			{
+				"id": 5101,
+				"const_value": "隔绝人世丨卷土重来",
+				"const_name": "SIWANG_BUTTON_TXT"
+			},
+			{
+				"id": 5102,
+				"const_value": "夜晚丧尸即将来袭，是否准备齐全？|魔修即将来袭，是否准备妥当？",
+				"const_name": "SHANGSHILAIXI_TISHI"
+			},
+			{
+				"id": 5103,
+				"const_value": "由于病情严重，休息会危及生命，是否继续？|由于伤势严重，闭关会危及生命，是否继续？",
+				"const_name": "BINGQINGYANZHONG_TISHI"
+			},
+			{
+				"id": 5104,
+				"const_value": "狂暴尸潮即将爆发，灾难即将降临，是否准备齐全？|魔修将大举进犯，是否做好抵挡准备？",
+				"const_name": "KUANGBAOLAIXI_TISHI"
+			},
+			{
+				"id": 5105,
+				"const_value": "由于病情严重，危机生命，无法外出探索！！！|由于伤势严重，危及生命，无法外出探索！！！",
+				"const_name": "BINGQINGBINWEI_TISHI"
+			},
+			{
+				"id": 5106,
+				"const_value": "夜晚丧尸来袭，你损失了一些物资|夜晚魔修突袭，你损失了一些物品",
+				"const_name": "YEWANLAIXI_TISHI"
+			},
+			{
+				"id": 5107,
+				"const_value": "6",
+				"const_name": "JXYX_SBL_TANSHUO"
+			},
+			{
+				"id": 5108,
+				"const_value": "2",
+				"const_name": "JXYX_SBL_XIAYINIAN"
+			},
+			{
+				"id": 5109,
+				"const_value": "1000",
+				"const_name": "TIANFUCHONGZHI_XIAOHAO"
+			},
+			{
+				"id": 5110,
+				"const_value": "5",
+				"const_name": "MR_JIAOYISHANGXIAN"
+			}
+		],
+		"merge": 1,
+		"modification": 1555652561269,
+		"name": "changliangbiao"
+	},
+	"fenjiezhuanhaun": {
+		"id": 11,
+		"typeName": "分解转换表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 2001,
+				"card_name": "SR级材料包丨橙色精华",
+				"fenjie_jiangli": [
+					2,
+					3
+				],
+				"zhuanhuan_xiaohao": [
+					3,
+					5
+				]
+			},
+			{
+				"id": 2002,
+				"card_name": "S级材料包丨紫色精华",
+				"fenjie_jiangli": [
+					3,
+					6
+				],
+				"zhuanhuan_xiaohao": [
+					6,
+					9
+				]
+			},
+			{
+				"id": 2003,
+				"card_name": "A级材料包丨蓝色精华",
+				"fenjie_jiangli": [
+					5,
+					10
+				],
+				"zhuanhuan_xiaohao": [
+					9,
+					12
+				]
+			},
+			{
+				"id": 2004,
+				"card_name": "B级材料包丨绿色精华",
+				"fenjie_jiangli": [
+					6,
+					12
+				],
+				"zhuanhuan_xiaohao": [
+					12,
+					15
+				]
+			},
+			{
+				"id": 2005,
+				"card_name": "C级材料包丨白色精华",
+				"fenjie_jiangli": [
+					9,
+					15
+				],
+				"zhuanhuan_xiaohao": [
+					15,
+					21
+				]
+			}
+		],
+		"merge": 1,
+		"modification": 1553826913201,
+		"name": "fenjiezhuanhaun"
+	},
+	"shijianbiao": {
+		"id": 9,
+		"typeName": "事件表",
+		"subkey": {},
+		"values": [
+			{
+				"but_name_3": "0",
+				"but_name_1": "战斗丨正面迎敌",
+				"but_type_3": 0,
+				"but_event_3": [
+					"0"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60048:100"
+				],
+				"id": 6000,
+				"but_name_2": "逃跑丨走为上策",
+				"but_type_2": 1,
+				"event_prob": 1,
+				"but_event_2": [
+					"60051:100"
+				],
+				"event_txt": "啊！啊啊啊...这是那？嗯？好疼，啊头好疼，浑身疼痛，乏而无力，“这是哪儿？”突然背后传来了怪异的声音，你扭头看去，看到了一只游荡的丧尸，向着你奔来，嘶吼着扑面冲来，你需要尽快做出决定...丨你刚离开入口不久，看着周围的奇观异景，感叹大自然的鬼斧神工，突然看到一位魔修狞笑着向你走来，你决定…"
+			},
+			{
+				"but_name_3": "悄悄离去丨悄然离去",
+				"but_name_1": "上前勇敢搏杀丨抢占先机",
+				"but_type_3": 3,
+				"but_event_3": [
+					"0"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60001:35",
+					"60002:33",
+					"60003:32"
+				],
+				"id": 6001,
+				"but_name_2": "潜伏观察，等它死亡丨收敛气息",
+				"but_type_2": 1,
+				"event_prob": 1000,
+				"but_event_2": [
+					"60006:50",
+					"60007:50"
+				],
+				"event_txt": "你在探索中遇到了一只腐狼，它看上去疲惫不堪，像是即将死亡...丨你发现了魔物争夺地盘留下的痕迹，顺着痕迹成功找到了受伤后在休息的魔物，你决定..."
+			},
+			{
+				"but_name_3": "0丨0",
+				"but_name_1": "打开箱子看看丨打开丹炉",
+				"but_type_3": 0,
+				"but_event_3": [
+					"0"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60021:50",
+					"60022:50"
+				],
+				"id": 6002,
+				"but_name_2": "无视走开，继续探索丨扔掉丹炉",
+				"but_type_2": 3,
+				"event_prob": 1000,
+				"but_event_2": [
+					"0"
+				],
+				"event_txt": "你在探索中发现了一个腐朽的箱子，破破烂烂的还脏兮兮的，感觉很恶心...丨捡到一个普通的丹炉，总感觉里面不会有什么好东西..."
+			},
+			{
+				"but_name_3": "默默离去丨继续前进",
+				"but_name_1": "过去捡起信封查看丨捡起玉简",
+				"but_type_3": 3,
+				"but_event_3": [
+					"0"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60004:49",
+					"60005:51"
+				],
+				"id": 6004,
+				"but_name_2": "前去查看包裹丨捡起纳戒",
+				"but_type_2": 1,
+				"event_prob": 900,
+				"but_event_2": [
+					"60008:100"
+				],
+				"event_txt": "你走在废墟中，仔细的寻找着一切可用的资源，突然看到右边石块下有一封信件，左边的废墟下露着一个包裹的一角......丨路过一片残破的废墟时，神识扫到右边有一具尸骸，怀中放有一片保存完好的玉简，看来制作这玉简的材料不是凡物，而左边的土堆下埋有一枚纳戒..."
+			},
+			{
+				"but_name_3": "0丨0",
+				"but_name_1": "去看看，也许有不少收获丨不入虎穴，焉得虎子",
+				"but_type_3": 0,
+				"but_event_3": [
+					"0"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60024:50",
+					"60025:50"
+				],
+				"id": 6005,
+				"but_name_2": "还是不去了天气不好，带着心情也是不好丨小心为上，还是不去了",
+				"but_type_2": 1,
+				"event_prob": 1000,
+				"but_event_2": [
+					"60027:100"
+				],
+				"event_txt": "天气越来越阴暗，你站在门口，看着天空思索着天气如此阴暗，要不要去远点的地方探索探索......丨一片充满瘴气的森林挡住了你的去路，站在森林的入口，看着森林中，时不时闪过的阴影，想着要不要去森林的深处探索..."
+			},
+			{
+				"but_name_3": "0丨0",
+				"but_name_1": "前去看看丨去碰碰运气",
+				"but_type_3": 0,
+				"but_event_3": [
+					"0"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60028:48",
+					"60029:52"
+				],
+				"id": 6006,
+				"but_name_2": "不做冒险，继续探索丨自觉实力太弱，不去",
+				"but_type_2": 3,
+				"event_prob": 1000,
+				"but_event_2": [
+					"0"
+				],
+				"event_txt": "你在探索中突发暴雨，阴雨连绵，你行走好久，方才发现了一个洞穴，位于死火山脚下，你决定...丨你突然发现自己的右方天象异变，雷电交加，仿佛有异宝出世，你决定..."
+			},
+			{
+				"but_name_3": "继续直行丨跟随灵感",
+				"but_name_1": "向左走丨向西走",
+				"but_type_3": 1,
+				"but_event_3": [
+					"60035:50",
+					"60036:50"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60032:48",
+					"60034:52"
+				],
+				"id": 6007,
+				"but_name_2": "向右走丨向东走",
+				"but_type_2": 1,
+				"event_prob": 900,
+				"but_event_2": [
+					"60031:50",
+					"60033:55"
+				],
+				"event_txt": "连续多天的烈日悬空，空气越发干燥，你在山中漫无目的的搜寻着可用的食物，越来越渴，你站在原地，看着茫茫无际的荒野，你决定......丨你不小心进入了一片荒芜之地，灵气稀薄，体内灵气的散发速度越来越快，你站在原地，看着无边无际的荒野，你决定..."
+			},
+			{
+				"but_name_3": "仓库丨宗门宝库",
+				"but_name_1": "急救营丨炼丹房",
+				"but_type_3": 1,
+				"but_event_3": [
+					"60045:50",
+					"60042:50"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60043:50",
+					"60040:50"
+				],
+				"id": 6008,
+				"but_name_2": "器械营丨炼器阁",
+				"but_type_2": 1,
+				"event_prob": 1000,
+				"but_event_2": [
+					"60044:50",
+					"60041:50"
+				],
+				"event_txt": "你发现了一个废弃的营地，里面寂静无声，一眼望去立着几个帐篷，上面隐约可见的写着急救营，器械营，仓库，你决定进去一探究竟，你选择先进入...丨意外发现了一座废弃的宗门遗址，推开大门，你的前方出现三座大殿，上面隐约可见地写着炼丹房，炼器室，宗门宝库，你选择先进入..."
+			},
+			{
+				"but_name_3": "0丨0",
+				"but_name_1": "一探究竟丨前去查看",
+				"but_type_3": 0,
+				"but_event_3": [
+					"0"
+				],
+				"but_type_1": 1,
+				"but_event_1": [
+					"60037:32",
+					"60038:35",
+					"60039:33"
+				],
+				"id": 6009,
+				"but_name_2": "去别处探索丨继续前进",
+				"but_type_2": 3,
+				"event_prob": 1000,
+				"but_event_2": [
+					"0"
+				],
+				"event_txt": "你寻找到了一个破旧的基地入口，你决定...丨机缘巧合下找到了一个残破的洞府入口..."
+			}
+		],
+		"merge": 1,
+		"modification": 1553826912858,
+		"name": "shijianbiao"
+	},
+	"sangshibiao": {
+		"id": 7,
+		"typeName": "丧尸表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 1,
+				"lose_obj": 2,
+				"lose_bao": 1,
+				"des_odds": 0
+			},
+			{
+				"id": 2,
+				"lose_obj": 2,
+				"lose_bao": 1,
+				"des_odds": 0
+			},
+			{
+				"id": 3,
+				"lose_obj": 2,
+				"lose_bao": 1,
+				"des_odds": 0
+			},
+			{
+				"id": 4,
+				"lose_obj": 3,
+				"lose_bao": 2,
+				"des_odds": 20
+			},
+			{
+				"id": 5,
+				"lose_obj": 3,
+				"lose_bao": 2,
+				"des_odds": 25
+			},
+			{
+				"id": 6,
+				"lose_obj": 4,
+				"lose_bao": 3,
+				"des_odds": 30
+			},
+			{
+				"id": 7,
+				"lose_obj": 4,
+				"lose_bao": 3,
+				"des_odds": 35
+			},
+			{
+				"id": 8,
+				"lose_obj": 5,
+				"lose_bao": 4,
+				"des_odds": 40
+			},
+			{
+				"id": 9,
+				"lose_obj": 5,
+				"lose_bao": 4,
+				"des_odds": 45
+			},
+			{
+				"id": 10,
+				"lose_obj": 6,
+				"lose_bao": 5,
+				"des_odds": 50
+			},
+			{
+				"id": 11,
+				"lose_obj": 6,
+				"lose_bao": 5,
+				"des_odds": 55
+			},
+			{
+				"id": 12,
+				"lose_obj": 7,
+				"lose_bao": 6,
+				"des_odds": 60
+			},
+			{
+				"id": 13,
+				"lose_obj": 7,
+				"lose_bao": 6,
+				"des_odds": 65
+			},
+			{
+				"id": 14,
+				"lose_obj": 8,
+				"lose_bao": 8,
+				"des_odds": 75
+			},
+			{
+				"id": 15,
+				"lose_obj": 8,
+				"lose_bao": 8,
+				"des_odds": 80
+			},
+			{
+				"id": 16,
+				"lose_obj": 0,
+				"lose_bao": 0,
+				"des_odds": 100
+			}
+		],
+		"merge": 1,
+		"modification": 1553826913438,
+		"name": "sangshibiao"
+	},
+	"shijianhouxubiao": {
+		"id": 10,
+		"typeName": "事件后续表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 60001,
+				"next_but_name_2": "一番惨烈战斗后，你获得了材料包若干丨获得了精华若干",
+				"next_but_name_1": "一番惨烈战斗后，你获得食品类物资若干丨获得生存类丹药",
+				"event_next_txt": "你上前向腐狼发动了攻击，腐狼绝地反扑，最终你艰难的杀死了腐狼，你也受到了伤害丨你偷袭失败，激怒了魔物，魔物绝地反击，最终你艰难的杀死了魔物，但你也受到了伤害",
+				"next_but_type_2": 2,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"2001:30",
+					"2002:35",
+					"2003:35",
+					"2:3"
+				],
+				"next_but_event_1": [
+					"3101:35",
+					"3102:35",
+					"3103:30",
+					"2:3"
+				]
+			},
+			{
+				"id": 60002,
+				"next_but_name_2": "一封信丨一片玉简",
+				"next_but_name_1": "一个包裹丨一枚纳戒",
+				"event_next_txt": "你上前经过一番搏杀，你轻松杀死了腐狼，在你收拾时你发现了...丨你偷袭成功，本已受伤的魔物拖着身体爬了几下，死掉了，清点战果时发现...",
+				"next_but_type_2": 1,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"60004:50",
+					"60005:50"
+				],
+				"next_but_event_1": [
+					"60008:100"
+				]
+			},
+			{
+				"id": 60003,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "什么也没有得到丨你有点懊恼",
+				"event_next_txt": "你准备上前时，刚有动静，腐狼就受惊的跑掉了丨你亮出的剑芒，被魔物警觉，魔物后退几步后跑掉了",
+				"next_but_type_2": 0,
+				"next_but_type_1": 4,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60004,
+				"next_but_name_2": "距离遥远还是算了，丢掉信件丨不去并丢掉玉简",
+				"next_but_name_1": "前往一探究竟丨前往一探究竟",
+				"event_next_txt": "你打开了信封发现是一位探险者的遗书，上面标明了他生前居住的基地，你决定丨你发现玉简上记录一个散修的洞府所在地，你决定...",
+				"next_but_type_2": 3,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"60016:35",
+					"60017:33",
+					"60018:32"
+				]
+			},
+			{
+				"id": 60005,
+				"next_but_name_2": "你看了看感觉没有用处暂时收起了信件丨暂时收了起来",
+				"next_but_name_1": "你看了又看感觉没有用处丢掉了信件丨你觉得没用并丢掉了",
+				"event_next_txt": "你捡起信封，打开后发现是一名科研队员写的，好像是发往基地总部，下面还有一张涂满文字和各种标注的工程图......丨捡起看起来似乎已经破损的纳戒，发现它上面的禁制还在...",
+				"next_but_type_2": 1,
+				"next_but_type_1": 3,
+				"next_but_event_2": [
+					"60019:100"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60006,
+				"next_but_name_2": "耐心等待片刻丨再观察一会",
+				"next_but_name_1": "只身前往丨抢占先机",
+				"event_next_txt": "你决定静心潜伏，先观察一段时间，许久之后腐狼倒地不起，哀嚎不断，你决定...丨你使用龟息术收敛气息，观察了一段时间，周围安静的有点异常，你决定...",
+				"next_but_type_2": 1,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"60007:100"
+				],
+				"next_but_event_1": [
+					"60002:33",
+					"60001:34",
+					"60003:33"
+				]
+			},
+			{
+				"id": 60007,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "暗自庆幸，继续探索丨暗自庆幸，继续探索",
+				"event_next_txt": "你决定静心潜伏，先观察一段时间，果然许久之后又从旁边的草丛中跳出4只腐狼，嚎叫一阵后转身离去...丨你使用龟息术收敛气息，观察了不到一炷香的时间，旁边的洞穴中又跳出几只魔物，警惕的看了四周一会后，和受伤的魔物一起离开了...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 3,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60008,
+				"next_but_name_2": "拿上包裹，继续探索丨拿上纳戒，继续探索",
+				"next_but_name_1": "拿走物资，丢掉包裹丨拿走精华，丢掉纳戒",
+				"event_next_txt": "你上前捡起包裹，感觉里面有什么东西,打开包裹发现里面放着一些生存物资...丨纳戒中灵气更加浓密，因此你捡起了纳戒，在其中发现了一些精华，还有人为留下的印记...",
+				"next_but_type_2": 1,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"60009:100"
+				],
+				"next_but_event_1": [
+					"2001:33",
+					"2002:34",
+					"2003:33",
+					"1:3"
+				]
+			},
+			{
+				"id": 60009,
+				"next_but_name_2": "隐藏事实藏起包裹丨我不知道你说什么东西",
+				"next_but_name_1": "仔细询问后归还丨归还",
+				"event_next_txt": "你走了一段后遇到了一位流亡者，他面带慌张，上前询问你是否看到了一个包裹，你听后想到了背后藏着的包裹，你决定丨你施展缩地术走了一段后，被一名散修追了上来，他直接让你把东西交出来...",
+				"next_but_type_2": 1,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"60020:100"
+				],
+				"next_but_event_1": [
+					"60010:100"
+				]
+			},
+			{
+				"id": 60010,
+				"next_but_name_2": "感谢并接取丨收下谢礼",
+				"next_but_name_1": "假意推辞丨拒绝",
+				"event_next_txt": "流亡者接过包裹后查看了一番，非常感谢你，为了感激你，决定送你些资源用来应急。丨散修接过纳戒查看了一番，非常感觉你，决定给你谢礼...",
+				"next_but_type_2": 1,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"60012:100"
+				],
+				"next_but_event_1": [
+					"60011:50",
+					"60013:50"
+				]
+			},
+			{
+				"id": 60011,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "好人卡丨获得丹药",
+				"event_next_txt": "你假意推辞一番后，对方收起了掏出的资源，深情的望着你，说了句：你是个好人丨散修思索了一会，留下了一些丹药，并郑重地拜了一拜后，离开了",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3101:33",
+					"3102:32",
+					"3103:35",
+					"1:2"
+				]
+			},
+			{
+				"id": 60012,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "获取资源丨获得精华",
+				"event_next_txt": "你理所当然的接过资源后，流亡者看着你拍了拍你的肩膀说你这种人，已经不多了！转身离去丨你收下谢礼后，散修挥了挥手，并对你说，道友有缘再见",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"2001:33",
+					"2002:34",
+					"2003:33",
+					"1:3"
+				]
+			},
+			{
+				"id": 60013,
+				"next_but_name_2": "紧跟其后逃离丨紧跟其后逃离",
+				"next_but_name_1": "你静身不动，凝望狼群准备战斗丨你静身不动，凝望几只魔物准备战斗",
+				"event_next_txt": "你和流亡者相互客气几番后，争执不断，就在这时旁边的树林里窜出几只腐狼，流亡者一把抢过你身上的背包，连带手上的包裹仓皇而逃丨你拒绝后，准备离开时，刚一转身就发现几只魔物，心头一紧，不料散修趁机抢走你的纳戒转身就跑",
+				"next_but_type_2": 1,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"60015:100"
+				],
+				"next_but_event_1": [
+					"60014:100"
+				]
+			},
+			{
+				"id": 60014,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "捡起查看丨捡起查看",
+				"event_next_txt": "狼群看着仓皇逃离的流亡者，又看了看谨慎戒备的你，嚎叫着追向流亡者，你吓得一身冷汗，就要离去时，发现流亡者匆忙逃离丢下了什么东西丨众魔物嚎叫了几声，追向逃之夭夭的散修，你深深的出了口气，就要离去时，发现散修慌忙逃离时好像丢下了什么东西",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3101:33",
+					"3102:34",
+					"3103:33",
+					"2:3"
+				]
+			},
+			{
+				"id": 60015,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "空手而归丨空手而归",
+				"event_next_txt": "你紧跟其后，奔走逃亡，丢失了一些探索材料丨你紧跟其后，法宝尽出，侥幸逃脱，没收到什么伤害，不过东西全丢了",
+				"next_but_type_2": 0,
+				"next_but_type_1": 4,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60016,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "空手而归丨空手而归",
+				"event_next_txt": "你按照信件指引前往后发现此地早已是废墟一片，你很是伤心最终空手而归丨跟随玉简指引，你找到了洞府的所在地，不过已经被人打开过了，进去搜寻了一会毫无所获",
+				"next_but_type_2": 0,
+				"next_but_type_1": 4,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60017,
+				"next_but_name_2": "离开丨离开",
+				"next_but_name_1": "搜寻废墟丨进入密室",
+				"event_next_txt": "你按照信件指引前往后终于找到了那片残骸废墟...丨跟随玉简指引，你找到了洞府的所在地，不过有人捷足先登，你毫无所获，正要离开时，发现一处机关，原来此处别有洞天",
+				"next_but_type_2": 0,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"60046:49",
+					"60047:51"
+				]
+			},
+			{
+				"id": 60018,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "时光之沙+3g丨时光之沙+3g",
+				"event_next_txt": "你按照信件指引前往后终于找到了那片残骸废墟，在内仔细搜寻后找到了一些时光之沙，简直是天降鸿运...丨跟随玉简指引，你找到了洞府的所在地，在仔细搜寻后找到了一些时光之沙，简直是天降鸿运",
+				"next_but_type_2": 0,
+				"next_but_type_1": 6,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3"
+				]
+			},
+			{
+				"id": 60019,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "一探究竟丨一探究竟",
+				"event_next_txt": "你正要行走，脑海中突然灵光一闪，你重新拿出了信件，仔细浏览信件的背面发现这是张地图，根据地图只是你找到一个废弃的基地...丨正想把纳戒收回怀中的时候，戒指自己裂开了，窜出一条光，直奔你眉心而来，原来是修者夺舍，你仗着自己神识强大，吞噬了对方的元神，从他的记忆中知道了，他的洞府所在",
+				"next_but_type_2": 0,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"60037:33",
+					"60038:33",
+					"60039:34"
+				]
+			},
+			{
+				"id": 60020,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "空手而归丨空手而归",
+				"event_next_txt": "你藏起了包裹，敷衍的应付了流亡者，转身要走时，被流亡者看到了包裹的一角，流亡者发出信号纠集其他流亡者围攻向你，最终你寡不敌众，偷鸡不成蚀把米，自身探索获得的物资和包裹都丢失了丨只见他用了一张传音符，几处遁光朝这边赶来，眨眼间，你已经被人包围，为了保住性命，交出了捡到的纳戒，同时一并奉上了自己的纳戒，几人狞笑几声后离开了...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 4,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60021,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "空手而归丨空手而归",
+				"event_next_txt": "你打开箱子后一股腐朽气息迎面而来，箱子内空空如也丨你打开丹炉时，不小心触发禁制，丹炉里面的东西被破坏掉了",
+				"next_but_type_2": 0,
+				"next_but_type_1": 4,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60022,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "获取食物丨获得丹药",
+				"event_next_txt": "你打开箱子后一股腐朽气息迎面而来，你在充满残骸的箱子内仔细寻找，最终找到了一些密封食物丨你打开丹炉后一股药物精华的气息扑面而来，定了定心神后，在丹炉中找到一些丹药",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3101:34",
+					"3102:33",
+					"3103:33",
+					"2:3"
+				]
+			},
+			{
+				"id": 60023,
+				"next_but_name_2": "寻找其他躲雨处丨进入森林",
+				"next_but_name_1": "去树下躲雨丨进入森林",
+				"event_next_txt": "你收拾好背包，向着更远的方向前去，突然天空下起了大雨，电闪雷鸣，天气更加恶劣，你需要寻找躲雨之处，四处张望发现侧方有一颗大树孤零零的立着...丨你收拾好行囊，继续前进发现前方有一片森林，你决定...",
+				"next_but_type_2": 1,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"60026:100"
+				],
+				"next_but_event_1": [
+					"60024:50",
+					"60025:50"
+				]
+			},
+			{
+				"id": 60024,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "惊吓过度，精神衰减丨虚惊一场，精神减少",
+				"event_next_txt": "你快跑来到树下躲雨，然而天有不测风云，一道闪电直直劈向大树而来，你吓得立刻跳远扑向一旁，躲开了致命雷劈，吓得你浑身冷汗淋淋...丨你小心翼翼的进入森林，走了一段后，突然发现周围的树丛沙沙作响，你屏住呼吸取出法宝，摆出防御架势，聚精会神的注视着四周，结果跳出一只兔子...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 9,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"-10"
+				]
+			},
+			{
+				"id": 60025,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "肢体受伤，体力衰减丨受到轻伤，体力减少",
+				"event_next_txt": "你快跑来到树下躲雨，然而天有不测风云，一道闪电直直劈向大树而来，你吓得立刻跳远扑向一旁，躲开了致命雷劈，但在扑倒时身体受伤...丨你小心翼翼的进入森林，走了一段后，突然发现周围的树丛沙沙作响，你后背一凉，心头一紧，结果左脚踩到右脚，被绊倒时又撞在一块石头上，受了点轻伤...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 7,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"-10"
+				]
+			},
+			{
+				"id": 60026,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "你看着这天气骂骂咧咧的继续寻找物资丨雨过天晴，继续上路",
+				"event_next_txt": "你漫无目的的快速奔跑，寻找安全的躲雨之处，然而暴雨来的快，娶得也快，不一会天气转晴了...丨你刚进入森林不久，就下起了暴雨，好在有茂盛的大树遮挡，你没淋到，索性就坐在树下修炼了起来...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 3,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60027,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "附近进行搜寻探索丨继续前进",
+				"event_next_txt": "你决定不去远的地方逛了，只在附近的周边搜索一下。丨你决定从森林的周边绕过去...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 3,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60028,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "上前搏斗丨抢占先机",
+				"event_next_txt": "前往洞穴内躲避大雨，你进入洞穴后发现里面有只腐狼对你呲牙咧嘴丨你到达天象对应的地点后，发现有只魔物在保护着什么东西，你决定...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"60001:50",
+					"60003:50"
+				]
+			},
+			{
+				"id": 60029,
+				"next_but_name_2": "你忍住好奇之心，坐等雨停继续探索丨你自觉不是大气运者，打算离开",
+				"next_but_name_1": "你决定向内探寻丨你决定去灵脉中心看看",
+				"event_next_txt": "你进入洞穴发现里面空空如也，你在洞内的石头上坐了一会，却听到内部有这细微声响传来，伴随着一阵阵的热风......丨你到达天象对应的地点后，感受到周围充满了灵气，果然是灵脉现世，你决定...",
+				"next_but_type_2": 3,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"60030:100"
+				]
+			},
+			{
+				"id": 60030,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "浑身灼热，水分下降丨灵气下降",
+				"event_next_txt": "你向着洞内深处走去，缓慢的向内行走，越走感觉越发的炎热，更加的好奇，最终你走到了洞穴劲头，是一悬崖，你感觉很是炎热，探头向下看去，发现原来是火山内壁，下方是沉寂的熔岩静静的流淌，看样子火山已经慢慢苏醒...丨你向着灵脉深处走去，灵气越发的浓密，所有的灵气都有意识的聚向一个方向，你走近后发现是一处法阵，你一时兴起坐在阵眼上修炼了起来，结果因为灵气过于浓密而走火入魔...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 8,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"-10"
+				]
+			},
+			{
+				"id": 60031,
+				"next_but_name_2": "精神少量恢复丨精神少量恢复",
+				"next_but_name_1": "水分增加丨灵气增加",
+				"event_next_txt": "你看着前方无边际的荒野，又看了看身后回去的路，决定向右边走去，你向着右边行走许久终于发现了一处湖泊，你很是兴奋，奔跑向湖泊，喝了几口甘甜湖水，在此休息了一会...丨沿着东方前进了片刻，就感觉到周围灵气开始浓密起来了，你加快了遁法，越过山丘看到一片灵湖，你快步走到灵湖旁边打坐...",
+				"next_but_type_2": 9,
+				"next_but_type_1": 8,
+				"next_but_event_2": [
+					"10"
+				],
+				"next_but_event_1": [
+					"10"
+				]
+			},
+			{
+				"id": 60032,
+				"next_but_name_2": "精神少量恢复丨精神少量恢复",
+				"next_but_name_1": "水分增加丨灵气增加",
+				"event_next_txt": "你看着前方无边际的荒野，又看了看身后回去的路，决定向左边走去，你向着左边行走许久终于发现了一处湖泊，你很是兴奋，奔跑向湖泊，喝了几口甘甜湖水，在此休息了一会...丨沿着西方前进了片刻，就感觉到周围灵气开始浓密起来了，你加快了遁法，越过山丘看到一片灵湖，你快步走到灵湖旁边打坐...",
+				"next_but_type_2": 9,
+				"next_but_type_1": 8,
+				"next_but_event_2": [
+					"10"
+				],
+				"next_but_event_1": [
+					"10"
+				]
+			},
+			{
+				"id": 60033,
+				"next_but_name_2": "精神少量减少丨精神少量减少",
+				"next_but_name_1": "水分减少丨灵气减少",
+				"event_next_txt": "你看着前方无边际的荒野，又看了看身后回去的路，决定向右边走去，你向着右边行走许久却发现还是一望无际的荒野，没有水源，天气炎热，你决定暂且回去，歇息歇息...丨沿着东方前进了片刻，周围环境没有丝毫变化，灵气还是那么稀薄，你思考一番后返回原路了...",
+				"next_but_type_2": 9,
+				"next_but_type_1": 8,
+				"next_but_event_2": [
+					"-5"
+				],
+				"next_but_event_1": [
+					"-10"
+				]
+			},
+			{
+				"id": 60034,
+				"next_but_name_2": "精神少量减少丨精神少量减少",
+				"next_but_name_1": "水分减少丨灵气减少",
+				"event_next_txt": "你看着前方无边际的荒野，又看了看身后回去的路，决定向左边走去，你向着左边行走许久终于发现了一处湖泊，你很是兴奋，奔跑向湖泊，喝了几口甘甜湖水，在此休息了一会...丨沿着西方前进了片刻，周围环境没有丝毫变化，灵气还是那么稀薄，你思考一番后返回原路了...",
+				"next_but_type_2": 9,
+				"next_but_type_1": 8,
+				"next_but_event_2": [
+					"-5"
+				],
+				"next_but_event_1": [
+					"-10"
+				]
+			},
+			{
+				"id": 60035,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "获取食品资源丨获取丹药",
+				"event_next_txt": "决定继续前行，认为总有收获之时，你坚定的向前行走，走了许久你发现了一片绿林，树上长满了浆果，你内心很是兴奋，快步前去采摘，一遍采摘一遍食用...丨决定跟随灵感后，你随心所欲地走去，走了许久你发现了一片充满灵气的树林，找到不少低阶灵草，随手炼制了一些丹药...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3101:50",
+					"3103:50",
+					"2:3"
+				]
+			},
+			{
+				"id": 60036,
+				"next_but_name_2": "丨0",
+				"next_but_name_1": "精神下降丨精神下降",
+				"event_next_txt": "决定继续前行，认为总有收获之时，你坚定的向前行走，走了许久却一无收获，荒野还是荒野，于是你沮丧的向回走去...丨决定跟随灵感后，你随心所欲地走去，走了许久，周围环境没有丝毫变化，你有些绝望地沿原路返回...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 9,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"-10"
+				]
+			},
+			{
+				"id": 60037,
+				"next_but_name_2": "库房丨纳戒",
+				"next_but_name_1": "医药丨炼丹室",
+				"event_next_txt": "你进入了基地，在残破的基地内来回寻找，你发现了两栋小建筑，看着还算完好，旁边门户上挂着残破的依稀可辨认的牌匾，医药和库房，你决定去...丨你侥幸进去了洞府，在其中来回寻找，你发现两处禁制，仔细分辨后发下分别是炼丹室和纳戒，但身上的符咒只足够破除一个禁制，你决定打开...",
+				"next_but_type_2": 2,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"3101:13",
+					"3102:13",
+					"3103:12",
+					"2001:13",
+					"2002:12",
+					"2003:13",
+					"2004:12",
+					"2005:12",
+					"3:5"
+				],
+				"next_but_event_1": [
+					"3201:35",
+					"3203:35",
+					"3202:30",
+					"2:3"
+				]
+			},
+			{
+				"id": 60038,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "体力下降丨体力下降",
+				"event_next_txt": "你在进入基地探索时触发了一破旧的机关，导致基地坍陷，你险之又险的从中逃出，却不慎被残破的石块砸中身体，体力下降丨你进入洞府时，不小心触发了洞主留下的禁制，导致洞府坍塌，逃脱的过程中，不慎被掉落的石块砸中，受了轻伤...",
+				"next_but_type_2": 0,
+				"next_but_type_1": 7,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"-10"
+				]
+			},
+			{
+				"id": 60039,
+				"next_but_name_2": "太危险，还是去别处探索吧丨离开",
+				"next_but_name_1": "重新进入丨重新进入",
+				"event_next_txt": "你在进入基地探索时触发了一破旧的机关，你险之又险的从中逃出，所幸未收伤害，你看着通道思考着...丨你进入洞府时，不小心触发了洞主留下的禁制，所幸洞主只想警示外来者，因而禁制只有阻挡作用，所以你没收到伤害，你内心挣扎了一番决定...",
+				"next_but_type_2": 3,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"60037:100"
+				]
+			},
+			{
+				"id": 60040,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "获得医药物资丨获得疗伤类丹药",
+				"event_next_txt": "你进入了临时基地的急救营，在内搜寻许久获得了一批医药物资，在想退出房间时不小心踩到了一陷阱，好像触发了什么，你急忙逃出，转身查看，发现所有的建筑都塌陷了，看来是无法探索了。丨你进入宗门的炼丹房，找到些许丹药，准备离开时，不知触发了什么禁制，地动山摇，你运功提气，纵身一跃，刚逃出这废弃的宗门，只见顷刻间一切建筑都化为乌有，你惊出一身冷汗，心中想到，果然不简单",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3201:35",
+					"3203:35",
+					"3202:30",
+					"2:3"
+				]
+			},
+			{
+				"id": 60041,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "获得材料丨获得精华",
+				"event_next_txt": "你进入了临时基地的器械营，在内搜寻许久获得了一把信号枪，在想退出房间时不小心踩到了一陷阱，好像触发了什么，你急忙逃出，转身查看，发现所有的建筑都塌陷了，看来是无法探索了。丨你进入宗门的炼器阁，找到些许精华，准备离开时，不知触发了什么禁制，地动山摇，你运功提气，纵身一跃，刚逃出这废弃的宗门，只见顷刻间一切建筑都化为乌有，你惊出一身冷汗，心中想到，果然不简单",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"2001:20",
+					"2002:20",
+					"2003:20",
+					"2004:20",
+					"2005:20",
+					"2:4"
+				]
+			},
+			{
+				"id": 60042,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "获得物资丨获得丹药",
+				"event_next_txt": "你进入了临时基地的仓库，在内搜寻许久获得了一批生存物资材料，在想退出房间时不小心踩到了一陷阱，好像触发了什么，你急忙逃出，转身查看，发现所有的建筑都塌陷了，看来是无法探索了。丨你进入宗门的宗门宝库，找到些许精华，准备离开时，不知触发了什么禁制，地动山摇，你运功提气，纵身一跃，刚逃出这废弃的宗门，只见顷刻间一切建筑都化为乌有，你惊出一身冷汗，心中想到，果然不简单",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3201:15",
+					"3203:15",
+					"3202:20",
+					"3101:15",
+					"3102:15",
+					"3103:20",
+					"2:3"
+				]
+			},
+			{
+				"id": 60043,
+				"next_but_name_2": "继续搜寻建筑残骸丨进入密室",
+				"next_but_name_1": "去别处探索丨离开",
+				"event_next_txt": "你进入了临时基地的急救营，在内搜寻时，不小心踩到了一陷阱，好像触发了什么，你急忙逃出，转身查看，发现所有的建筑都塌陷了，看来是无法探索了。丨你进入宗门的炼丹房，不知触发了什么禁制，地动山摇，你运功提气，纵身一跃，刚逃出这废弃的宗门，只见顷刻间一切建筑都化为乌有，待灰尘散尽后，出现一个密室",
+				"next_but_type_2": 1,
+				"next_but_type_1": 3,
+				"next_but_event_2": [
+					"60046:48",
+					"60047:52"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60044,
+				"next_but_name_2": "继续搜寻建筑残骸丨进入密室",
+				"next_but_name_1": "去别处探索丨离开",
+				"event_next_txt": "你进入了临时基地的器械营，在内搜寻时，不小心踩到了一陷阱，好像触发了什么，你急忙逃出，转身查看，发现所有的建筑都塌陷了，看来是无法探索了。丨你进入宗门的炼器阁，不知触发了什么禁制，地动山摇，你运功提气，纵身一跃，刚逃出这废弃的宗门，只见顷刻间一切建筑都化为乌有，待灰尘散尽后，出现一个密室",
+				"next_but_type_2": 1,
+				"next_but_type_1": 3,
+				"next_but_event_2": [
+					"60046:49",
+					"60047:51"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60045,
+				"next_but_name_2": "继续搜寻建筑残骸丨进入密室",
+				"next_but_name_1": "去别处探索丨离开",
+				"event_next_txt": "你进入了临时基地的仓库，在内搜寻时，不小心踩到了一陷阱，好像触发了什么，你急忙逃出，转身查看，发现所有的建筑都塌陷了，看来是无法探索了。丨你进入宗门的宗门宝库，不知触发了什么禁制，地动山摇，你运功提气，纵身一跃，刚逃出这废弃的宗门，只见顷刻间一切建筑都化为乌有，待灰尘散尽后，出现一个密室",
+				"next_but_type_2": 1,
+				"next_but_type_1": 3,
+				"next_but_event_2": [
+					"60046:50",
+					"60047:50"
+				],
+				"next_but_event_1": [
+					"0"
+				]
+			},
+			{
+				"id": 60046,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "获得材料丨获得精华",
+				"event_next_txt": "你在废墟中搜寻许久，只搜寻到了部分材料，看来多数物资都已被破坏了。丨你环视了密室一圈，发现东西都被人带走了，地上散落了一些精华",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"2001:40",
+					"2002:35",
+					"2003:25",
+					"2:3"
+				]
+			},
+			{
+				"id": 60047,
+				"next_but_name_2": "0丨0",
+				"next_but_name_1": "获得物资丨获得丹药",
+				"event_next_txt": "你在废墟中搜寻许久，搜寻到了部分物资，看来多数物资都已被破坏了。丨你环视了密室一圈，发现东西都被人带走了，地上散落了一些药瓶",
+				"next_but_type_2": 0,
+				"next_but_type_1": 2,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3201:15",
+					"3203:15",
+					"3202:20",
+					"3101:15",
+					"3102:15",
+					"3103:20",
+					"2:3"
+				]
+			},
+			{
+				"id": 60048,
+				"next_but_name_2": "你决定再找找看看丨寻找福地",
+				"next_but_name_1": "你决定就此居住丨开辟洞府",
+				"event_next_txt": "你决定与其进行战斗，你冲上前去与丧尸拼搏战斗，由于本就长途奔波逃命到此，体力上有所不支，战斗时频频失误，最终凄惨的获得胜利。这里不是久留之地你决定迅速离开，寻找安全居所暂时修养，终于你找到了一个陈旧破败的地下避难所丨剑刚拔到一半，对面就直奔你的面门而来，你情急之下运功，使用秘法远遁逃过一劫，对方紧追而来，你法宝尽出，最终一记纵横宇外击败对方。原地打坐调息时，发现此地灵气充裕，你决定",
+				"next_but_type_2": 1,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"60050:100"
+				],
+				"next_but_event_1": [
+					"60049:100"
+				]
+			},
+			{
+				"id": 60049,
+				"next_but_name_2": "0",
+				"next_but_name_1": "喜获材料丨喜获精华",
+				"event_next_txt": "你决定就在此处居住，你拿着材料对这个地下避难所进行了一些加固和维护，就此松了一口气，感受到浑身难受，饥渴难耐，精神萎靡不振，并在这里发现了一些可用材料。丨就地开辟洞府，你取出阵法材料，对这个简陋的洞府设置了几处禁制，忙碌了一番的你感到一丝疲惫，同时在这里发现了一些可用精华。",
+				"next_but_type_2": 0,
+				"next_but_type_1": 11,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"2001:4",
+					"2002:6",
+					"2003:8",
+					"2004:10",
+					"2005:12"
+				]
+			},
+			{
+				"id": 60050,
+				"next_but_name_2": "0",
+				"next_but_name_1": "喜获物资丨喜获丹药",
+				"event_next_txt": "你奔走寻找许久后，最终还是回到了这个废弃的地下避难所，决定在这里暂时居住生存，并去搜索家人的信息线索。你对这个基地进行了加固维护，之后终于可放松下来了，并在这里发现了一些可用物资。丨你御剑飞行了一炷香的时间，发现四周灵气越来越稀薄，最终还是回到了原处开辟洞府，在洞府设置了几处简单的禁制后，你感到一丝疲惫。同时在这里发现了一些可用丹药。",
+				"next_but_type_2": 0,
+				"next_but_type_1": 11,
+				"next_but_event_2": [
+					"0"
+				],
+				"next_but_event_1": [
+					"3101:3",
+					"3102:3",
+					"3103:3",
+					"3201:2",
+					"3202:2",
+					"3203:2"
+				]
+			},
+			{
+				"id": 60051,
+				"next_but_name_2": "去其他地方看看丨寻找福地",
+				"next_but_name_1": "修复这里暂时居住丨开辟洞府",
+				"event_next_txt": "你仓皇逃跑，匆忙间逃至了一个废弃的地下避难所，你屏息靠墙而立，警惕的观察着这个幽静，废弃的避难所，你看着这个有些残破的基地思考着丨你急忙运功，使用秘法远遁，对方看起来没有要追的意思，但你还是集中精力调动全身灵气，等回过神时，已离开入口好远，仔细打量四周，发现此处灵气充裕，你决定",
+				"next_but_type_2": 1,
+				"next_but_type_1": 1,
+				"next_but_event_2": [
+					"60050:100"
+				],
+				"next_but_event_1": [
+					"60049:100"
+				]
+			}
+		],
+		"merge": 1,
+		"modification": 1553826913389,
+		"name": "shijianhouxubiao"
+	},
+	"card": {
+		"id": 3,
+		"typeName": "探索奖励表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 1001,
+				"card_quality": 6,
+				"card_class": 1,
+				"card_desc": "代表自身秘境炼心的凭证，拥有着神秘的心灵之力，是离开秘境的必要物品丨可以用来修炼空间之力，也可以用来稳定秘境，会附带少量命运之沙",
+				"card_indexes": 1,
+				"card_name": "秘境心石丨空间碎片",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 2001,
+				"card_quality": 5,
+				"card_class": 2,
+				"card_desc": "探索获得的SR级材料整合而成，可以进行研究转换丨炼丹或炼器的仙品材料，可以被提炼出来，也可做为货币交易",
+				"card_indexes": 2,
+				"card_name": "SR级材料包丨橙色精华",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 2002,
+				"card_quality": 4,
+				"card_class": 2,
+				"card_desc": "探索获得的S级材料整合而成，可以进行研究转换丨炼丹或炼器的极品材料，可以被提炼出来，也可做为货币交易",
+				"card_indexes": 3,
+				"card_name": "S级材料包丨紫色精华",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 2003,
+				"card_quality": 3,
+				"card_class": 2,
+				"card_desc": "探索获得的A级材料整合而成，可以进行研究转换丨炼丹或炼器的上品材料，可以被提炼出来，也可做为货币交易",
+				"card_indexes": 4,
+				"card_name": "A级材料包丨蓝色精华",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 2004,
+				"card_quality": 2,
+				"card_class": 2,
+				"card_desc": "探索获得的B级材料整合而成，可以进行研究转换丨炼丹或炼器的中品材料，可以被提炼出来，也可做为货币交易",
+				"card_indexes": 5,
+				"card_name": "B级材料包丨绿色精华",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 2005,
+				"card_quality": 1,
+				"card_class": 2,
+				"card_desc": "探索获得的C级材料整合而成，可以进行研究转换丨炼丹或炼器的凡品材料，可以被提炼出来，也可做为货币交易",
+				"card_indexes": 6,
+				"card_name": "C级材料包丨白色精华",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 3101,
+				"card_quality": 7,
+				"card_class": 3,
+				"card_desc": "探索收集到的生存物资，食品类，缺乏水份，干燥偏咸，能很好的补充体力，不过还是到餐厅加工后使用吧丨炼制简单，携带方便，可以减少饥饿感，增加体力",
+				"card_indexes": 7,
+				"card_name": "食品罐头丨辟谷丹",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 3102,
+				"card_quality": 7,
+				"card_class": 3,
+				"card_desc": "探索收集到的生存物资，食品类，存放很久，你可能需要去客厅饮水机处理后引用。丨在灵气稀薄的环境中，打坐时使用，可以补充少量灵气",
+				"card_indexes": 9,
+				"card_name": "矿泉水丨灵气丹",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 3103,
+				"card_quality": 7,
+				"card_class": 3,
+				"card_desc": "探索收集到的生存物资，食品类，未加工的咖啡粉，很怀疑能否使用，需要到咖啡室加工后使用，能提升一定的精神力丨在冥想时使用，可以恢复一定的精神力",
+				"card_indexes": 11,
+				"card_name": "咖啡丨凝神丹",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 3201,
+				"card_quality": 8,
+				"card_class": 3,
+				"card_desc": "探索收集到的生存物资，药品类，对发热体虚很好的疗效丨可以修复灵根，也可以用来精炼灵根",
+				"card_indexes": 10,
+				"card_name": "维生素片丨补天丹",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 3202,
+				"card_quality": 8,
+				"card_class": 3,
+				"card_desc": "探索收集到的生存物资，药品类，对组织坏死很好的疗效丨重伤的修真者只要还有一口气，服用此丹可救其命",
+				"card_indexes": 8,
+				"card_name": "抗生素针剂丨离殒丹",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			},
+			{
+				"id": 3203,
+				"card_quality": 8,
+				"card_class": 3,
+				"card_desc": "探索收集到的生存物资，药品类，对发炎感染很好的疗效丨修复神识的丹药",
+				"card_indexes": 12,
+				"card_name": "消炎药丨安魂丹",
+				"is_usege": 1,
+				"award_id": [
+					"0"
+				]
+			}
+		],
+		"merge": 1,
+		"modification": 1553826913484,
+		"name": "card"
+	},
+	"tishibiao": {
+		"id": 8,
+		"typeName": "提示表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 1,
+				"tips_txt": "发热体虚时会导致自身挥发更多的水份丨灵根受损时，灵气消耗增加"
+			},
+			{
+				"id": 2,
+				"tips_txt": "发炎感染后休息时不会回复你的精神力，疼痛使你更加沮丧，无法入眠丨神识受损时，休息时不会增加精神力，而你也会更加绝望"
+			},
+			{
+				"id": 3,
+				"tips_txt": "组织坏死时会加导致你的体力加快消耗丨肉身受损时，加剧体力消耗"
+			},
+			{
+				"id": 4,
+				"tips_txt": "感染后休息时不会回复你的精神力，反而更加沮丧，消耗你的精神力丨神识受损时，休息不会增加精神力，反而会减少"
+			},
+			{
+				"id": 5,
+				"tips_txt": "精神状态疯狂时探索获得维修工具包会立刻死亡丨精神状态疯狂时探索获得空间碎片会立刻死亡"
+			},
+			{
+				"id": 6,
+				"tips_txt": "感染发炎后抽到材料包时，会令你十分沮丧伤心，从而导致精神下降丨神识受损状态，找到精华时会变得绝望，降低精神力"
+			},
+			{
+				"id": 7,
+				"tips_txt": "每次外出探索和休息时都有小几率生病。丨每年外出历练和闭关是都有小概率受伤"
+			},
+			{
+				"id": 8,
+				"tips_txt": "每平安度过一天，都会积攒一些微量的时光之沙丨每次成功在幻境中度过一年时，都会增加少量时光之沙"
+			},
+			{
+				"id": 9,
+				"tips_txt": "每次探索找到维修工具包时你积攒到一些时光之沙丨收集到空间碎片时，你也会得到少量时光之沙"
+			},
+			{
+				"id": 10,
+				"tips_txt": "你要先活下去！是的，只有活着才有无限可能丨生命不息，轮回不止，死亡只是新的开始"
+			},
+			{
+				"id": 11,
+				"tips_txt": "食物和水是必须物资，无论什么时候都要节约使用。丨辟谷丹和灵气丹虽然炼制简单，但在幻境中却异常珍贵"
+			}
+		],
+		"merge": 1,
+		"modification": 1553826913098,
+		"name": "tishibiao"
+	},
+	"beijingbiao": {
+		"id": 14,
+		"typeName": "故事背景表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 1000,
+				"txt_1": "    上古大能为磨炼后辈心性而建造的灾难生存秘境，在这里你将是一个能力全无的普通人。你将会感受到身为一个普通人，身处一个丧尸遍布，尸潮不断，濒临毁灭的科技末世，想尽一切方法生存并在毁灭前离开。只有收集到足够的秘境心石方可离开秘境获得大能留下的奖励。",
+				"Help": "1.进入下一天时，保证体力，精力，水分条不要太低，否则会在睡梦中死亡。\n2.随时关注身体状态，异常状态长期不治疗会导致无法行动\n3.幻境商人可以提供材料和生存物资的交易，并且每过一天都会进行刷新货物，要随时关注哦！\n4.休息时进入下一天，会消耗体力和水分，但会增加精神力。\n5.丧尸来袭时会有提示，僵尸只会在休息时来袭，若是没有雇佣进行抵挡，会有几率被丧尸发现并导致死亡。\n6.一个好的天赋会让你的生存能力得到显著提升。\n7.探索时会触发随机事件，处理随机事件会获得很棒的回报，当然也会有致命的惩罚。",
+				"txt_2": "    每一次都是新的轮回，谨记活着才有希望！"
+			},
+			{
+				"id": 2000,
+				"txt_1": "    魔道两派交接处的幻境，幻境中地貌广阔，充满了毒气，散布了许多空间碎片，所以产生了奇怪的空间法则，幻境每次重新开启时，会恢复成最初的样子，因此得名生死轮回。为防止竭泽而渔，每位进入幻境试图领悟轮回之力的修真者，必须缴纳一定数量的空间碎片才可以离开。",
+				"Help": "1.进入下一年时，请保证体力，精力，灵气值不要低于总量的五分之一，否则会在闭关中死亡。\n2.受伤状态，没有得到充足的休息和治疗时，会导致无法行动。\n3.幻境商人可以提供丹药和精华的交易，并且每过一年都会进行刷新货物，要随时关注哦！\n4.闭关时进入下一年，会消耗体力和灵气，但会增加精神力\n5.魔修来袭时会有提示，魔修只会在闭关时来袭，若是没有结交道友，会有几率被魔修围攻死亡。\n6.优秀的天赋会让你事半功倍。\n7.外出时会触发随机事件，随机事件有意外的收货，也会有意外的危险。",
+				"txt_2": "    死亡只是又一次的开始！"
+			}
+		],
+		"merge": 1,
+		"modification": 1553826912779,
+		"name": "beijingbiao"
+	},
+	"mijinggk": {
+		"id": 12,
+		"typeName": "秘境关卡表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 1000,
+				"level": 550,
+				"name": "绝地逃生",
+				"kxh": [
+					50176,
+					1
+				],
+				"tgjiang": [
+					90207,
+					90205,
+					90203,
+					90198
+				],
+				"des": "11111111111",
+				"jdjiang": 1000,
+				"dtime": 2,
+				"danwei": "天",
+				"ktime": 12
+			},
+			{
+				"id": 2000,
+				"level": 120,
+				"name": "仙境传说",
+				"kxh": [
+					50177,
+					1
+				],
+				"tgjiang": [
+					90208,
+					90206,
+					90204,
+					90198
+				],
+				"des": "222222222",
+				"jdjiang": 2000,
+				"dtime": 2,
+				"danwei": "年",
+				"ktime": 12
+			}
+		],
+		"merge": 1,
+		"modification": 1553826912927,
+		"name": "mijinggk"
+	},
+	"mijingjd": {
+		"id": 13,
+		"typeName": "秘境阶段表",
+		"subkey": {},
+		"values": [
+			{
+				"id": 1000,
+				"hurt": 10,
+				"stage": "生存10天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1001,
+				"hurt": 20,
+				"stage": "生存20天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90200
+				]
+			},
+			{
+				"id": 1002,
+				"hurt": 30,
+				"stage": "生存30天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1003,
+				"hurt": 40,
+				"stage": "生存40天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90196
+				]
+			},
+			{
+				"id": 1004,
+				"hurt": 50,
+				"stage": "生存50天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1005,
+				"hurt": 60,
+				"stage": "生存60天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1006,
+				"hurt": 70,
+				"stage": "生存70天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1007,
+				"hurt": 80,
+				"stage": "生存80天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90196
+				]
+			},
+			{
+				"id": 1008,
+				"hurt": 90,
+				"stage": "生存90天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90200
+				]
+			},
+			{
+				"id": 1009,
+				"hurt": 100,
+				"stage": "生存100天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1010,
+				"hurt": 110,
+				"stage": "生存110天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1011,
+				"hurt": 120,
+				"stage": "生存120天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90196
+				]
+			},
+			{
+				"id": 1012,
+				"hurt": 130,
+				"stage": "生存130天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1013,
+				"hurt": 140,
+				"stage": "生存140天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1014,
+				"hurt": 150,
+				"stage": "生存150天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1015,
+				"hurt": 180,
+				"stage": "生存180天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90196
+				]
+			},
+			{
+				"id": 1016,
+				"hurt": 210,
+				"stage": "生存210天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90200
+				]
+			},
+			{
+				"id": 1017,
+				"hurt": 240,
+				"stage": "生存240天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1018,
+				"hurt": 270,
+				"stage": "生存270天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90196
+				]
+			},
+			{
+				"id": 1019,
+				"hurt": 300,
+				"stage": "生存300天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90201
+				]
+			},
+			{
+				"id": 1020,
+				"hurt": 330,
+				"stage": "生存330天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90200
+				]
+			},
+			{
+				"id": 1021,
+				"hurt": 365,
+				"stage": "生存365天",
+				"boss_id": 1000,
+				"prize": [
+					90199,
+					90196
+				]
+			},
+			{
+				"id": 2000,
+				"hurt": 10,
+				"stage": "生存10年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90200
+				]
+			},
+			{
+				"id": 2001,
+				"hurt": 20,
+				"stage": "生存20年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90235
+				]
+			},
+			{
+				"id": 2002,
+				"hurt": 30,
+				"stage": "生存30年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90201
+				]
+			},
+			{
+				"id": 2003,
+				"hurt": 40,
+				"stage": "生存40年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90235
+				]
+			},
+			{
+				"id": 2004,
+				"hurt": 50,
+				"stage": "生存50年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90201
+				]
+			},
+			{
+				"id": 2005,
+				"hurt": 60,
+				"stage": "生存60年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90235
+				]
+			},
+			{
+				"id": 2006,
+				"hurt": 70,
+				"stage": "生存70年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90200
+				]
+			},
+			{
+				"id": 2007,
+				"hurt": 80,
+				"stage": "生存80年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90235
+				]
+			},
+			{
+				"id": 2008,
+				"hurt": 90,
+				"stage": "生存90年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2009,
+				"hurt": 100,
+				"stage": "生存100年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2010,
+				"hurt": 110,
+				"stage": "生存110年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90200
+				]
+			},
+			{
+				"id": 2011,
+				"hurt": 120,
+				"stage": "生存120年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2012,
+				"hurt": 130,
+				"stage": "生存130年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90235
+				]
+			},
+			{
+				"id": 2013,
+				"hurt": 140,
+				"stage": "生存140年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2014,
+				"hurt": 150,
+				"stage": "生存150年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2015,
+				"hurt": 180,
+				"stage": "生存180年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90200
+				]
+			},
+			{
+				"id": 2016,
+				"hurt": 210,
+				"stage": "生存210年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2017,
+				"hurt": 240,
+				"stage": "生存240年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2018,
+				"hurt": 270,
+				"stage": "生存270年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90235
+				]
+			},
+			{
+				"id": 2019,
+				"hurt": 300,
+				"stage": "生存300年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2020,
+				"hurt": 330,
+				"stage": "生存330年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2021,
+				"hurt": 365,
+				"stage": "生存365年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90200
+				]
+			},
+			{
+				"id": 2022,
+				"hurt": 400,
+				"stage": "生存400年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2023,
+				"hurt": 435,
+				"stage": "生存435年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90235
+				]
+			},
+			{
+				"id": 2024,
+				"hurt": 470,
+				"stage": "生存470年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90202
+				]
+			},
+			{
+				"id": 2025,
+				"hurt": 500,
+				"stage": "生存500年",
+				"boss_id": 2000,
+				"prize": [
+					90195,
+					90200
+				]
+			}
+		],
+		"merge": 1,
+		"modification": 1553826913321,
+		"name": "mijingjd"
+	}
+}
